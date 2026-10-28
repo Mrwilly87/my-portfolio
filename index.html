@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Wilson Njeru — Frontend Developer &amp; IT Tutor</title>
+<meta name="description" content="Wilson Njeru is a frontend developer and IT tutor based in Nairobi — building fast web interfaces and teaching computer packages, IT essentials and code live on Google Meet." />
+<meta name="theme-color" content="#0a0f1e" />
+<meta property="og:title" content="Wilson Njeru — Frontend Developer &amp; IT Tutor" />
+<meta property="og:description" content="Frontend developer, IT tutor on Google Meet, and Health Records & IT student." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="assets/og-image.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Wilson Njeru — Frontend Developer &amp; IT Tutor" />
+<meta name="twitter:description" content="Frontend developer, IT tutor on Google Meet, and Health Records & IT student." />
+<meta name="twitter:image" content="assets/og-image.png" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Wilson Njeru",
+  "jobTitle": "Frontend Developer & IT Tutor",
+  "email": "mailto:njeruwilly87@gmail.com",
+  "telephone": "+254748377420",
+  "sameAs": ["https://github.com/Mrwilly87"],
+  "address": { "@type": "PostalAddress", "addressLocality": "Nairobi", "addressCountry": "KE" },
+  "knowsLanguage": ["en", "sw"]
+}
+</script>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+<script>
+  (function () {
+    var t = "dark";
+    try { t = localStorage.getItem("wn-theme") || "dark"; } catch (e) {}
+    document.documentElement.setAttribute("data-theme", t);
+  })();
+</script>
+<link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="brand" href="#top" aria-label="Wilson Njeru, home">
+      <span class="brand__mark">WN</span>
+      <span class="brand__name">Wilson&nbsp;Njeru</span>
+    </a>
+
+    <nav class="nav__links" id="navLinks" aria-label="Primary">
+      <a href="#work">Work</a>
+      <a href="#tutoring">Tutoring</a>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#stack">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav__actions">
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to light theme">
+        <svg class="ico-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.4" /><path d="M12 2.5v2.4M12 19.1v2.4M2.5 12h2.4M19.1 12h2.4M5 5l1.7 1.7M17.3 17.3 19 19M19 5l-1.7 1.7M6.7 17.3 5 19" /></svg>
+        <svg class="ico-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.6 14.2A8.8 8.8 0 0 1 9.8 3.4a8.8 8.8 0 1 0 10.8 10.8Z" /></svg>
+      </button>
+      <a class="btn btn--sm btn--ink" href="#contact">
+        Let's talk
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13 13 3M6 3h7v7" /></svg>
+      </a>
+      <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="top">
+    <div class="hero__grid" aria-hidden="true"></div>
+    <div class="blob blob--violet" aria-hidden="true"></div>
+    <div class="blob blob--coral" aria-hidden="true"></div>
+    <div class="blob blob--cyan" aria-hidden="true"></div>
+
+    <div class="wrap hero__inner">
+      <p class="pill pill--live reveal">
+        <span class="dot" aria-hidden="true"></span>
+        Open for projects &amp; new students — Q4 2026
+      </p>
+
+      <div class="hero__head">
+        <h1 class="hero__title reveal">
+          <span class="line">Wilson</span>
+          <span class="line line--accent">Njeru<span class="hero__dot">.</span></span>
+        </h1>
+
+        <div class="hero__portrait reveal">
+          <span class="portrait-pin" aria-hidden="true"></span>
+          <div class="portrait-blob" aria-hidden="true"></div>
+          <div class="portrait-frame">
+            <img
+              src="assets/portfolio.jpg"
+              alt="Portrait of Wilson Njeru"
+              width="720"
+              height="1098"
+            />
+          </div>
+          <span class="sticker sticker--a" aria-hidden="true">OPEN<br />TO&nbsp;WORK</span>
+        </div>
+      </div>
+
+      <div class="hero__bottom">
+        <p class="hero__lede reveal">
+          Frontend developer in Nairobi building <em>fast, accessible</em>
+          interfaces — and teaching everything IT, from computer packages to
+          code, live on Google Meet.
+        </p>
+
+        <div class="hero__cta reveal">
+          <a class="btn btn--ink" href="#work">
+            See the work
+            <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11M9 3l5 5-5 5" /></svg>
+          </a>
+          <a class="btn btn--ghost" href="assets/wilson-njeru-cv.pdf" download>
+            Download CV
+            <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v9M4 8l4 4 4-4M2 14h12" /></svg>
+          </a>
+        </div>
+      </div>
+
+      <dl class="hero__stats reveal">
+        <div>
+          <dt>Years building</dt>
+          <dd>05</dd>
+        </div>
+        <div>
+          <dt>Students taught</dt>
+          <dd>300+</dd>
+        </div>
+        <div>
+          <dt>Products shipped</dt>
+          <dd>24</dd>
+        </div>
+      </dl>
+    </div>
+
+    <div class="sticker sticker--b" aria-hidden="true">★</div>
+  </section>
+
+  <!-- ============ MARQUEE ============ -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>TypeScript</span><i>✳</i><span>React</span><i>✳</i><span>Next.js</span><i>✳</i><span>Tailwind</span><i>✳</i><span>Framer Motion</span><i>✳</i><span>Node.js</span><i>✳</i><span>Vite</span><i>✳</i><span>Accessibility</span><i>✳</i>
+      <span>TypeScript</span><i>✳</i><span>React</span><i>✳</i><span>Next.js</span><i>✳</i><span>Tailwind</span><i>✳</i><span>Framer Motion</span><i>✳</i><span>Node.js</span><i>✳</i><span>Vite</span><i>✳</i><span>Accessibility</span><i>✳</i>
+    </div>
+  </div>
+
+  <!-- ============ WORK ============ -->
+  <section class="section" id="work">
+    <div class="wrap">
+      <div class="section__head reveal">
+        <p class="eyebrow"><span>01</span> Selected work</p>
+        <h2 class="section__title">Things I've<br />actually shipped.</h2>
+        <p class="section__note">
+          A few products I designed, built and still get paged about. Names and
+          numbers changed where NDAs apply.
+        </p>
+      </div>
+
+      <div class="work-grid">
+        <article class="card reveal">
+          <a class="card__link" href="#" data-case="sokoni" aria-label="Read the case study for Sokoni">
+            <div class="card__art art--sokoni">
+              <span class="card__badge">01</span>
+              <div class="art__window">
+                <span class="art__bar"></span>
+                <div class="art__rows"><i></i><i></i><i></i></div>
+              </div>
+              <div class="art__coin">KSh</div>
+            </div>
+            <div class="card__body">
+              <p class="card__meta">Marketplace · 2025</p>
+              <h3>Sokoni</h3>
+              <p>A mobile-first marketplace connecting 12k+ smallholder farmers to buyers, with offline-first sync and M-Pesa checkout.</p>
+              <ul class="tags">
+                <li>Next.js</li><li>Postgres</li><li>M-Pesa API</li>
+              </ul>
+              <span class="card__cta">View case study <i aria-hidden="true">↗</i></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="card reveal">
+          <a class="card__link" href="#" data-case="tempo" aria-label="Read the case study for Tempo">
+            <div class="card__art art--tempo">
+              <span class="card__badge">02</span>
+              <div class="art__rings"><i></i><i></i><i></i></div>
+              <div class="art__chip">9:41</div>
+            </div>
+            <div class="card__body">
+              <p class="card__meta">SaaS · 2024</p>
+              <h3>Tempo</h3>
+              <p>Team scheduling that reads every calendar at once. Cut double-bookings by 78% for a 200-person distributed agency.</p>
+              <ul class="tags">
+                <li>React</li><li>Node</li><li>Google Calendar API</li>
+              </ul>
+              <span class="card__cta">View case study <i aria-hidden="true">↗</i></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="card reveal">
+          <a class="card__link" href="#" data-case="kesho" aria-label="Read the case study for Kesho">
+            <div class="card__art art--kesho">
+              <span class="card__badge">03</span>
+              <div class="art__bars"><i></i><i></i><i></i><i></i><i></i></div>
+              <div class="art__label">+ 34%</div>
+            </div>
+            <div class="card__body">
+              <p class="card__meta">Fintech · 2024</p>
+              <h3>Kesho</h3>
+              <p>A goal-based savings product with round-up transfers and plain-language nudges. Grew activated users 3.4× in two quarters.</p>
+              <ul class="tags">
+                <li>TypeScript</li><li>Go</li><li>Redis</li>
+              </ul>
+              <span class="card__cta">View case study <i aria-hidden="true">↗</i></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="card reveal">
+          <a class="card__link" href="https://github.com/Mrwilly87" target="_blank" rel="noopener noreferrer" aria-label="Relay on GitHub">
+            <div class="card__art art--relay">
+              <span class="card__badge">04</span>
+              <div class="art__term">
+                <code><b>$</b> relay deploy --prod</code>
+                <code class="dim">✓ build 8.2s</code>
+                <code class="dim">✓ 42 edges live</code>
+              </div>
+            </div>
+            <div class="card__body">
+              <p class="card__meta">Open source · 2023</p>
+              <h3>Relay</h3>
+              <p>A tiny edge-cache toolkit for Next.js — one config file, zero vendor lock-in. 1.8k stars and used in production by 40+ teams.</p>
+              <ul class="tags">
+                <li>TypeScript</li><li>Edge runtime</li><li>OSS</li>
+              </ul>
+              <span class="card__cta">View on GitHub <i aria-hidden="true">↗</i></span>
+            </div>
+          </a>
+        </article>
+      </div>
+
+      <div class="work-more reveal">
+        <p>Want the long versions — architecture, trade-offs, the bugs I caused?</p>
+        <a class="link-underline" href="mailto:njeruwilly87@gmail.com">Ask me for the deck</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TUTORING ============ -->
+  <section class="section section--tutoring" id="tutoring">
+    <div class="wrap">
+      <div class="section__head reveal">
+        <p class="eyebrow"><span>02</span> Tutoring</p>
+        <h2 class="section__title">Learn it live,<br />on Google&nbsp;Meet.</h2>
+        <p class="section__note">
+          I teach all computer packages and everything IT — one-on-one or in
+          small groups, beginner friendly, evenings and weekends (EAT). Notes
+          and practice files included.
+        </p>
+      </div>
+
+      <div class="class-grid">
+        <article class="class-card reveal">
+          <span class="class-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M3 5h18v11H3z" /><path d="M9 20h6M12 16v4" /></svg>
+          </span>
+          <h3>Computer packages</h3>
+          <p>Word, Excel, PowerPoint, Access and Publisher — plus fast typing and proper file management.</p>
+          <ul class="tags">
+            <li>MS Word</li><li>Excel</li><li>PowerPoint</li><li>Access</li>
+          </ul>
+        </article>
+
+        <article class="class-card reveal">
+          <span class="class-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" /><path d="M3 12h18M12 3c2.7 2.6 4 5.6 4 9s-1.3 6.4-4 9c-2.7-2.6-4-5.6-4-9s1.3-6.4 4-9Z" /></svg>
+          </span>
+          <h3>IT essentials</h3>
+          <p>The internet and email done right, Google Workspace, online safety, basic troubleshooting and computer setup from zero.</p>
+          <ul class="tags">
+            <li>Internet &amp; email</li><li>Google Workspace</li><li>Online safety</li>
+          </ul>
+        </article>
+
+        <article class="class-card reveal">
+          <span class="class-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="m8 7-5 5 5 5M16 7l5 5-5 5M13 4l-2 16" /></svg>
+          </span>
+          <h3>Web &amp; code</h3>
+          <p>HTML, CSS and JavaScript from the first line, Git and GitHub, and building a real website you can show the world.</p>
+          <ul class="tags">
+            <li>HTML &amp; CSS</li><li>JavaScript</li><li>Git &amp; GitHub</li>
+          </ul>
+        </article>
+
+        <article class="class-card reveal">
+          <span class="class-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M8 3h8v4H8zM5 7h14v14H5z" /><path d="M12 11v6M9 14h6" /></svg>
+          </span>
+          <h3>Health records &amp; data</h3>
+          <p>Health records systems, data entry and quality, and spreadsheets for health information — the field I study every day.</p>
+          <ul class="tags">
+            <li>HR systems</li><li>Data quality</li><li>Health spreadsheets</li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="class-format reveal">
+        <div>
+          <h3>Format</h3>
+          <p>Live 1-on-1 or groups of up to 5, on Google Meet</p>
+        </div>
+        <div>
+          <h3>Level</h3>
+          <p>Absolute beginner to advanced — start where you are</p>
+        </div>
+        <div>
+          <h3>Schedule</h3>
+          <p>Evenings &amp; weekends, EAT — flexes around you</p>
+        </div>
+        <div>
+          <h3>Includes</h3>
+          <p>Notes, exercises and certificates of completion</p>
+        </div>
+      </div>
+
+      <div class="tutor-cta reveal">
+        <a class="btn btn--ink" href="https://wa.me/254748377420?text=Hi%20Wilson%2C%20I%27d%20like%20to%20book%20an%20intro%20class" target="_blank" rel="noopener noreferrer">
+          Book a free intro class
+          <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13 13 3M6 3h7v7" /></svg>
+        </a>
+        <p>The first 20 minutes are free — decide after we talk.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section class="section" id="testimonials">
+    <div class="wrap">
+      <div class="section__head reveal">
+        <p class="eyebrow"><span>03</span> Kind words</p>
+        <h2 class="section__title">Students and clients<br />say it best.</h2>
+        <p class="section__note">
+          Feedback from live classes and shipped projects — names shortened at
+          their request.
+        </p>
+      </div>
+
+      <div class="testi-grid">
+        <figure class="testi-card reveal">
+          <span class="testi__stars" aria-label="5 out of 5 stars">★★★★★</span>
+          <blockquote>
+            I joined his computer-packages class knowing almost nothing. Two
+            months later I keep the shop's records in Excel and design my own
+            flyers.
+          </blockquote>
+          <figcaption>
+            <span class="testi__avatar" aria-hidden="true">MW</span>
+            <span class="testi__who"><strong>Mary W.</strong>Computer packages student</span>
+          </figcaption>
+        </figure>
+
+        <figure class="testi-card reveal">
+          <span class="testi__stars" aria-label="5 out of 5 stars">★★★★★</span>
+          <blockquote>
+            Wilson explains things until they click. The Google Meet classes fit
+            around my shifts, and the notes after every session are gold.
+          </blockquote>
+          <figcaption>
+            <span class="testi__avatar" aria-hidden="true">BK</span>
+            <span class="testi__who"><strong>Brian K.</strong>IT essentials student</span>
+          </figcaption>
+        </figure>
+
+        <figure class="testi-card reveal">
+          <span class="testi__stars" aria-label="5 out of 5 stars">★★★★★</span>
+          <blockquote>
+            He built our business website in two weeks — fast and clean — and
+            then taught us how to update it ourselves. That extra step is why
+            I send everyone to him.
+          </blockquote>
+          <figcaption>
+            <span class="testi__avatar" aria-hidden="true">AS</span>
+            <span class="testi__who"><strong>Amina S.</strong>Website client</span>
+          </figcaption>
+        </figure>
+
+        <figure class="testi-card reveal">
+          <span class="testi__stars" aria-label="5 out of 5 stars">★★★★★</span>
+          <blockquote>
+            From "hello world" to my own portfolio site in eight weeks. Patient,
+            organized, always prepared — the best tutor I've had.
+          </blockquote>
+          <figcaption>
+            <span class="testi__avatar" aria-hidden="true">DM</span>
+            <span class="testi__who"><strong>David M.</strong>Web &amp; code student</span>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section section--about" id="about">
+    <div class="wrap about">
+      <div class="about__visual reveal">
+        <div class="portrait">
+          <img src="assets/portfolio.jpg" alt="Wilson Njeru" width="720" height="1098" />
+          <span class="portrait__tag">Nairobi, KE<br /><span>UTC+3</span></span>
+        </div>
+      </div>
+
+      <div class="about__copy">
+        <p class="eyebrow reveal"><span>04</span> About</p>
+        <h2 class="section__title reveal">Developer.<br />Tutor. Creative.</h2>
+        <div class="prose reveal">
+          <p>
+            For the last five years I've been building web interfaces — and for
+            just as long, teaching people everything IT, from their first click
+            in Word to their first line of code. Classes run live on Google
+            Meet, one-on-one or in small groups.
+          </p>
+          <p>
+            When I'm not shipping or teaching, I'm studying Health Records
+            &amp; Information Technology, and making things for the joy of it —
+            layouts, graphics, content. I care about the boring parts (clear
+            naming, honest error states, good notes) because that's what makes
+            both products and classes feel calm.
+          </p>
+        </div>
+
+        <div class="now reveal">
+          <h3>Right now</h3>
+          <ul>
+            <li><span aria-hidden="true">→</span> Taking new tutoring students for evening &amp; weekend classes</li>
+            <li><span aria-hidden="true">→</span> Studying Health Records &amp; Information Technology</li>
+            <li><span aria-hidden="true">→</span> Building a small gallery of design experiments</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section class="section section--dark" id="experience">
+    <div class="wrap">
+      <div class="section__head section__head--onDark reveal">
+        <p class="eyebrow"><span>05</span> Experience</p>
+        <h2 class="section__title">Where I've<br />done the work.</h2>
+      </div>
+
+      <ol class="timeline">
+        <li class="reveal">
+          <span class="timeline__year">2023 — Now</span>
+          <div>
+            <h3>IT Tutor — live online classes</h3>
+            <p class="timeline__org">Google Meet · one-on-one &amp; groups</p>
+            <p>Teaching all computer packages, IT essentials, web basics and health-records skills to 300+ students — from absolute beginners to job-ready. Evenings and weekends, notes and practice files included.</p>
+          </div>
+        </li>
+        <li class="reveal">
+          <span class="timeline__year">2024 — Now</span>
+          <div>
+            <h3>Senior Frontend Engineer</h3>
+            <p class="timeline__org">Kaizen Labs · Nairobi</p>
+            <p>Lead the frontend platform team. Migrated a 6-year-old web app to Next.js without a single full-day outage, and cut p95 load times from 2.8s to 640ms.</p>
+          </div>
+        </li>
+        <li class="reveal">
+          <span class="timeline__year">2022 — 2024</span>
+          <div>
+            <h3>Frontend Developer</h3>
+            <p class="timeline__org">Savannah Studio · Remote</p>
+            <p>Shipped 11 client products across fintech, logistics and health. Owned the design system that took new screens from 3 days to 3 hours.</p>
+          </div>
+        </li>
+        <li class="reveal">
+          <span class="timeline__year">2021 — 2022</span>
+          <div>
+            <h3>Junior Frontend Developer</h3>
+            <p class="timeline__org">Boma Digital · Nairobi</p>
+            <p>Built dashboards used by 40+ field teams. Introduced automated UI testing and took release-day regressions to nearly zero.</p>
+          </div>
+        </li>
+        <li class="reveal">
+          <span class="timeline__year">2024 — Now</span>
+          <div>
+            <h3>Health Records &amp; Information Technology</h3>
+            <p class="timeline__org">Diploma studies · Nairobi</p>
+            <p>Medical records management, health information systems and data quality — the field that keeps my health-IT classes grounded in the real world.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ STACK ============ -->
+  <section class="section" id="stack">
+    <div class="wrap">
+      <div class="section__head reveal">
+        <p class="eyebrow"><span>06</span> Skills</p>
+        <h2 class="section__title">Tools I reach for.</h2>
+      </div>
+
+      <div class="stack-grid">
+        <div class="stack-card reveal">
+          <h3>Frontend</h3>
+          <ul>
+            <li>React</li><li>Next.js</li><li>TypeScript</li><li>Tailwind CSS</li><li>Framer Motion</li><li>Vite</li>
+          </ul>
+        </div>
+        <div class="stack-card reveal">
+          <h3>Teaching &amp; office</h3>
+          <ul>
+            <li>Google Meet</li><li>Google Workspace</li><li>MS Word</li><li>Excel</li><li>PowerPoint</li><li>Access</li>
+          </ul>
+        </div>
+        <div class="stack-card reveal">
+          <h3>Data &amp; platform</h3>
+          <ul>
+            <li>PostgreSQL</li><li>Supabase</li><li>Node.js</li><li>Vercel</li><li>GitHub Actions</li><li>Docker</li>
+          </ul>
+        </div>
+        <div class="stack-card reveal">
+          <h3>Practice</h3>
+          <ul>
+            <li>Design systems</li><li>Accessibility</li><li>Performance</li><li>Testing</li><li>Motion &amp; animation</li><li>Mentoring</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="section" id="faq">
+    <div class="wrap">
+      <div class="section__head reveal">
+        <p class="eyebrow"><span>07</span> FAQ</p>
+        <h2 class="section__title">Before you ask.</h2>
+        <p class="section__note">
+          The questions new students and clients send me most — anything else,
+          just message me.
+        </p>
+      </div>
+
+      <div class="faq-list reveal">
+        <details>
+          <summary>How do the classes run?</summary>
+          <p>Live on Google Meet with screen sharing — you see my screen, I see yours. We pick a time that fits you (evenings and weekends, EAT), and after every session you get notes and practice exercises.</p>
+        </details>
+        <details>
+          <summary>What do I need to start?</summary>
+          <p>Just a phone, tablet or laptop and internet. For computer packages I'll walk you through installing everything you need in the very first class — no experience required.</p>
+        </details>
+        <details>
+          <summary>What do classes cost?</summary>
+          <p>Rates depend on the package and how often we meet — message me on WhatsApp for the current price list and course bundles. The 20-minute intro call is always free.</p>
+        </details>
+        <details>
+          <summary>Can I learn with a friend or colleague?</summary>
+          <p>Yes — groups of up to 5 at a discounted rate per person. Same syllabus, same personal notes for everyone.</p>
+        </details>
+        <details>
+          <summary>Which languages do you teach in?</summary>
+          <p>English or Kiswahili — whichever you're more comfortable with. Class notes are in English.</p>
+        </details>
+        <details>
+          <summary>Do I get a certificate?</summary>
+          <p>Yes — a certificate of completion when you finish a full course track, plus a portfolio project for the web and coding classes.</p>
+        </details>
+        <details>
+          <summary>How do we start?</summary>
+          <p>Book the free intro on WhatsApp. We talk about your goals, agree on a schedule, and start the same week.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="contact" id="contact">
+    <div class="wrap">
+      <p class="eyebrow reveal"><span>08</span> Contact</p>
+      <h2 class="contact__title reveal">
+        Got something<br />to build — or learn?
+      </h2>
+
+      <div class="contact__grid">
+        <div class="contact__info">
+          <p class="contact__lede reveal">
+            I take on freelance projects and tutoring students year-round. Tell
+            me what you need — a website, a class, or both.
+          </p>
+
+          <div class="contact__actions reveal">
+            <a class="btn btn--big" href="mailto:njeruwilly87@gmail.com">
+              njeruwilly87@gmail.com
+              <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13 13 3M6 3h7v7" /></svg>
+            </a>
+            <a class="btn btn--wa" href="https://wa.me/254748377420" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 20.5l1.7-5.2A8.4 8.4 0 1 1 21 11.5Z" /></svg>
+              Call/text — 0748 377 420
+            </a>
+            <button class="copy-btn" id="copyEmail" data-email="njeruwilly87@gmail.com">
+              Copy email
+            </button>
+          </div>
+
+          <ul class="socials reveal">
+            <li><a href="https://github.com/Mrwilly87" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            <li><a href="https://wa.me/254748377420" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+            <li><a href="mailto:njeruwilly87@gmail.com">Email</a></li>
+          </ul>
+        </div>
+
+        <form class="c-form reveal" id="waForm">
+          <h3 class="c-form__title">Send a quick message</h3>
+          <label class="c-form__field">
+            <span>Your name</span>
+            <input type="text" id="wfName" name="name" placeholder="e.g. Grace Njeri" autocomplete="name" required />
+          </label>
+          <label class="c-form__field">
+            <span>I'm interested in</span>
+            <select id="wfTopic" name="topic">
+              <option>A website project</option>
+              <option>Computer packages classes</option>
+              <option>IT essentials classes</option>
+              <option>Web &amp; coding classes</option>
+              <option>Health records &amp; data classes</option>
+              <option>Something else</option>
+            </select>
+          </label>
+          <label class="c-form__field">
+            <span>Message</span>
+            <textarea id="wfMsg" name="message" rows="4" placeholder="Tell me a little about it…" required></textarea>
+          </label>
+          <button class="btn btn--big c-form__send" type="submit">
+            Send via WhatsApp
+            <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13 13 3M6 3h7v7" /></svg>
+          </button>
+          <p class="c-form__note">Opens WhatsApp with your message ready to send — nothing is stored on this site.</p>
+        </form>
+      </div>
+    </div>
+    <div class="contact__blob" aria-hidden="true"></div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__inner">
+    <p>© <span id="year">2026</span> Wilson Njeru. Built in Nairobi with too much coffee.</p>
+    <a href="#top" class="footer__top">Back to top <span aria-hidden="true">↑</span></a>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite">Email copied</div>
+
+<dialog class="case-modal" id="caseModal" aria-labelledby="caseTitle">
+  <div class="case-modal__head">
+    <span class="case-modal__chip" id="caseChip">Case study</span>
+    <button class="case-modal__close" id="caseClose" type="button" aria-label="Close case study">✕</button>
+  </div>
+  <h3 id="caseTitle">Project</h3>
+  <p class="case-modal__meta" id="caseMeta"></p>
+  <div class="case-modal__body" id="caseBody"></div>
+  <ul class="case-modal__points" id="casePoints"></ul>
+  <ul class="case-modal__tags" id="caseTags"></ul>
+  <div class="case-modal__foot">
+    <a class="btn btn--ink btn--sm" id="caseAsk" href="#">
+      Ask me about this project
+      <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13 13 3M6 3h7v7" /></svg>
+    </a>
+    <a class="btn btn--ghost btn--sm" id="caseRepo" href="#" target="_blank" rel="noopener noreferrer" hidden>View on GitHub</a>
+  </div>
+</dialog>
+
+<script src="assets/main.js"></script>
+</body>
+</html>
